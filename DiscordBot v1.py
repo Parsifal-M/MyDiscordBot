@@ -3,9 +3,9 @@
 import discord
 from discord.ext import commands
 
-token = '' # Your token here
+token = ''  # Your token here
 
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='~')
 
 # Bot Commands
 
@@ -22,6 +22,7 @@ async def coms(ctx):
 
 # Get slapped
 # Sample from Discord.py
+
 
 @bot.command()
 async def slap(ctx, members: commands.Greedy[discord.Member], *, reason='for being a lil scrub'):
