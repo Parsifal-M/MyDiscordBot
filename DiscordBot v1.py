@@ -5,7 +5,7 @@ from discord.ext import commands
 from googleapiclient.discovery import build
 import pprint
 
-token = 'NDkzNDM1MzExNzY3MDI3NzIy.Xkrnfg.ubdKLF1Q2F31JlgIVoRzVN3LUhk'  # Your token here
+token = 'NDN3LUhk'  # Your token here
 
 bot = commands.Bot(command_prefix='~')
 
